@@ -2315,12 +2315,12 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			font-weight: 900;
+			font-weight: 300;
 			margin: 0;
 		}
 
 			#header h1 span {
-				font-weight: 300;
+				font-weight: 900;
 			}
 
 		#header nav {
@@ -2527,7 +2527,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner-mountain-1.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner-mountain-1-blur.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2535,14 +2535,8 @@ input, select, textarea {
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
-
-		/* filter: blur(3px); */
 	}
 
-	div > #banner {
-		backdrop-filter: blur(3px);
-	}
-	
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
